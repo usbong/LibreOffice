@@ -1,4 +1,4 @@
-# LibreOffice
+# Usbong LibreOffice: NOTES
 set of computer instructions to automate task execution using LibreOffice 
 
 <b>Emphasis:</b> LibreOffice Calc (Spreadsheet Tool)
