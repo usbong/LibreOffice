@@ -8,13 +8,13 @@
 > ' answer by: newbie-02, 2020-10; Excel VBA<br/>
 > <br/>
 > ' Excel VBA Computer Instructions<br/>
-> ' Range("A1:j1000").Sort Key1:=Range("A1")<br/>
+> ' Range("A1:J1000").Sort Key1:=Range("A1")<br/>
 > <br/>
 > <b>Dim sortDesc(1) As New com.sun.star.beans.PropertyValue </b><br/>
 > <b>Dim mySortFields(0) As New com.sun.star.util.SortField </b><br/>
 > <br/>
 > <b>sheet = ThisComponent.Sheets(0)</b><br/>
-> <b>rgN = "A1:j1000"</b> REM range of cells: A1 to J1000<br/>
+> <b>rgN = "A1:J1000"</b> REM range of cells: A1 to J1000<br/>
 > <b>targetRg = sheet.getCellRangeByName(rgN)</b><br/>
 > <br/>
 > <b>sortDesc(0).Name = "IsSortColumns" </b>REM Dispensable since 'False' is default.<br/>
